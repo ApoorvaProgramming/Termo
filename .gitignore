@@ -31,3 +31,63 @@ google-services.json
 
 # Android Profiling
 *.hprof
+# Android-specific files
+*.apk
+*.ap_
+*.dex
+*.class
+*.dex
+*.pro
+*.sbr
+*.key
+*.lock
+*.so
+
+# Gradle files
+.gradle/
+build/
+/local.properties
+
+# Android Studio files
+/.idea/
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/shelf
+.idea/caches
+.idea/modules.xml
+
+# Termux-specific files
+/data/data/com.termux/files/home/.bash_history
+/data/data/com.termux/files/home/.termux/
+/data/data/com.termux/files/usr/share/termux/
+/data/data/com.termux/files/usr/lib/apt
+/data/data/com.termux/files/usr/etc/apt
+/data/data/com.termux/files/usr/var/lib/apt
+/data/data/com.termux/files/usr/var/cache/apt
+/data/data/com.termux/files/usr/var/lib/dpkg
+/data/data/com.termux/files/usr/var/cache/dpkg
+/data/data/com.termux/files/usr/var/log/apt
+/data/data/com.termux/files/usr/var/log/termux/
+
+# Compiled binaries
+*.o
+*.ko
+*.obj
+*.elf
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bz2
+*.xz
